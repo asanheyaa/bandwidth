@@ -1,0 +1,79 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+.contact-us-contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+@media (max-width: 1170px) {
+  .contact-us-contact {
+    padding-top: calc(40px + 80 * (100vw - 320px) / 850);
+  }
+}
+@media (max-width: 1170px) {
+  .contact-us-contact {
+    padding-bottom: calc(40px + 80 * (100vw - 320px) / 850);
+  }
+}
+.top-contact-us {
+  margin-bottom: 100px;
+}
+@media (max-width: 1170px) {
+  .top-contact-us {
+    margin-bottom: calc(40px + 60 * (100vw - 320px) / 850);
+  }
+}
+.top-contact-us__title {
+  margin-bottom: 30px;
+}
+.top-contact-us__subtitle {
+  color: #6E717E;
+}
+
+.form-contact-us__inputs {
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+@media (max-width: 1170px) {
+  .form-contact-us__inputs {
+    margin-bottom: calc(40px + 43 * (100vw - 320px) / 850);
+  }
+}
+.form-contact-us__input {
+  display: block;
+  width: 100%;
+  padding: 20px 18px 20px 55px;
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: url(../img/main-images/person-icon.svg) 12px 12px/32px 32px no-repeat;
+  font-size: 14px;
+}
+.form-contact-us__input:not(:last-child) {
+  margin-bottom: 40px;
+}
+@media (max-width: 1170px) {
+  .form-contact-us__input:not(:last-child) {
+    margin-bottom: calc(20px + 20 * (100vw - 320px) / 850);
+  }
+}
+.form-contact-us__input::-webkit-input-placeholder {
+  color: #000;
+}
+.form-contact-us__input::-moz-placeholder {
+  color: #000;
+}
+.form-contact-us__input:-ms-input-placeholder {
+  color: #000;
+}
+.form-contact-us__input::-ms-input-placeholder {
+  color: #000;
+}
+.form-contact-us__input::placeholder {
+  color: #000;
+}
+.form-contact-us__button {
+  padding: 12px 73px;
+}

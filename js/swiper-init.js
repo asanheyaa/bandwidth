@@ -10,6 +10,7 @@ if (heroHomePageSwiper) {
 		spaceBetween: 50,
 		pagination: {
 			el: '.swiper-hero-section__pagination',
+			clickable:true
 		},
 	});
 }
