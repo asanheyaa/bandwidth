@@ -84,8 +84,10 @@ body {
 
 html._lock {
   overflow: hidden;
+  position: relative;
 }
 html._lock body {
+  position: relative;
   overflow: hidden;
 }
 
