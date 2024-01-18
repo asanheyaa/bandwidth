@@ -35,6 +35,7 @@ if (links) {
 			scrollingToServiceSection()
 			document.querySelector('.menu-header').classList.remove('_active');
 			document.body.classList.remove('_lock');
+			burgerMenu.classList.remove('_active');
 		})
 	});
 }
