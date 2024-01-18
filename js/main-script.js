@@ -33,6 +33,8 @@ if (links) {
 		link.addEventListener('click', (e) => {
 			e.preventDefault()
 			scrollingToServiceSection()
+			document.querySelector('.menu-header').classList.remove('_active');
+			document.body.classList.remove('_lock');
 		})
 	});
 }
