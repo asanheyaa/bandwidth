@@ -1,10 +1,11 @@
 // burger-menu
+const body = document.querySelector('body'); 
 
 const burgerMenu = document.querySelector('.header__burger');
 burgerMenu.addEventListener('click', (e) => {
 	burgerMenu.classList.toggle('_active');
 	document.querySelector('.menu-header').classList.toggle('_active');
-	document.body.classList.toggle('_lock');
+	body.classList.toggle('_lock');
 });
 
 
@@ -34,7 +35,7 @@ if (links) {
 			e.preventDefault()
 			scrollingToServiceSection()
 			document.querySelector('.menu-header').classList.remove('_active');
-			document.body.classList.remove('_lock');
+			body.classList.remove('_lock');
 			burgerMenu.classList.remove('_active');
 		})
 	});
