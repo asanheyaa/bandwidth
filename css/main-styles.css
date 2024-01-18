@@ -82,6 +82,13 @@ body {
   height: 100%;
 }
 
+html._lock {
+  overflow: hidden;
+}
+html._lock body {
+  overflow: hidden;
+}
+
 body {
   line-height: 1.5;
   font-size: 18px;

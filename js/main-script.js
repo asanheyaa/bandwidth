@@ -1,5 +1,5 @@
 // burger-menu
-const body = document.querySelector('body'); 
+const body = document.querySelector('html'); 
 
 const burgerMenu = document.querySelector('.header__burger');
 burgerMenu.addEventListener('click', (e) => {
