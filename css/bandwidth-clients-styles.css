@@ -230,10 +230,5 @@
   top: 26px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  right: 32px;
-}
-@media (min-width: 991.98px) {
-  .bandwidth-clients-partners__icon-arrow {
-    right: -50px;
-  }
+  right: -50px;
 }

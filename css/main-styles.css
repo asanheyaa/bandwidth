@@ -306,7 +306,7 @@ body._lock {
           flex: 0 0 auto;
   position: relative;
   z-index: 2;
-  font-family: Poppins;
+  font-family: Plus Jakarta Sans;
   font-weight: 500;
   line-height: 1.75;
   padding: 16px 48px;
@@ -835,7 +835,7 @@ body._lock {
 }
 
 .menu-footer__title {
-  font-family: Poppins;
+  font-family: Plus Jakarta Sans;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.38; /* 138.462% */
@@ -866,7 +866,7 @@ body._lock {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  font-family: Poppins;
+  font-family: Plus Jakarta Sans;
   max-width: 456px;
 }
 .form-footer__input {
