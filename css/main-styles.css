@@ -524,7 +524,7 @@ body._lock {
   color: #ddd;
 }
 .main-hero-section__image {
-  max-width: 1045px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   padding-bottom: 41.47%;
