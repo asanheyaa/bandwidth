@@ -33,10 +33,10 @@ if (links) {
 	links.forEach(link => {
 		link.addEventListener('click', (e) => {
 			e.preventDefault()
-			scrollingToServiceSection()
 			document.querySelector('.menu-header').classList.remove('_active');
 			body.classList.remove('_lock');
 			burgerMenu.classList.remove('_active');
+			scrollingToServiceSection()
 		})
 	});
 }
