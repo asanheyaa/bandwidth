@@ -95,17 +95,17 @@ html._lock body {
 
 body {
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 22px;
   font-family: Outfit;
   color: #000;
 }
+@media (max-width: 1500px) {
+  body {
+    font-size: calc(16px + 6 * (100vw - 320px) / 1180);
+  }
+}
 body._lock {
   overflow: hidden;
-}
-@media (min-width: 1600px) {
-  body {
-    font-size: 22px;
-  }
 }
 
 .wrapper {
