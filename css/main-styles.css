@@ -549,14 +549,9 @@ body._lock {
   color: #ddd;
 }
 .main-hero-section__image {
+  margin-top: 500px;
   padding-bottom: 41.47%;
-  margin-top: -65px;
   position: relative;
-}
-@media (max-width: 1500px) {
-  .main-hero-section__image {
-    margin-top: calc(-10px + -55 * (100vw - 320px) / 1180);
-  }
 }
 .main-hero-section__image img {
   position: absolute;
