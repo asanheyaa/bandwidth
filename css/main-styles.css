@@ -194,6 +194,11 @@ body._lock {
   display: inline-block;
   text-align: center;
 }
+@media (min-width: 1500px) {
+  .button {
+    font-size: 22px;
+  }
+}
 @media (any-hover: hover) {
   .button:hover {
     background: #011640;
@@ -765,6 +770,11 @@ body._lock {
 .main-offering__label:not(:last-child) {
   margin-bottom: 16px;
 }
+@media (min-width: 1500px) {
+  .main-offering__label {
+    font-size: 26px;
+  }
+}
 .main-offering__text {
   font-size: 18px;
   line-height: 1.77; /* 177.778% */
@@ -774,6 +784,11 @@ body._lock {
 @media (max-width: 1500px) {
   .main-offering__text {
     font-size: calc(16px + 2 * (100vw - 320px) / 1180);
+  }
+}
+@media (min-width: 1500px) {
+  .main-offering__text {
+    font-size: 22px;
   }
 }
 .main-offering__image {
@@ -879,6 +894,11 @@ body._lock {
   color: #94a3b8;
   margin-bottom: 30px;
 }
+@media (min-width: 1500px) {
+  .menu-footer__title {
+    font-size: 18px;
+  }
+}
 .menu-footer__item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -912,6 +932,11 @@ body._lock {
   border: 1px solid #e4e4e7;
   margin-bottom: 12px;
 }
+@media (min-width: 1500px) {
+  .form-footer__input {
+    font-size: 22px;
+  }
+}
 .form-footer__button {
   display: block;
   width: 100%;
@@ -923,6 +948,11 @@ body._lock {
   transition: all 0.3s ease 0s;
   font-weight: 500;
   border: 1px solid transparent;
+}
+@media (min-width: 1500px) {
+  .form-footer__button {
+    font-size: 22px;
+  }
 }
 @media (any-hover: hover) {
   .form-footer__button:hover {

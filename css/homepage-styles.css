@@ -289,6 +289,11 @@
     margin-bottom: calc(15px + 15 * (100vw - 320px) / 850);
   }
 }
+@media (min-width: 1500px) {
+  .solutions__label {
+    font-size: 26px;
+  }
+}
 .solutions__text {
   margin-bottom: 45px;
   font-weight: 500;
@@ -420,6 +425,11 @@
 }
 .services__label:not(:last-child) {
   margin-bottom: 10px;
+}
+@media (min-width: 1500px) {
+  .services__label {
+    font-size: 26px;
+  }
 }
 .services__text {
   font-weight: 500;

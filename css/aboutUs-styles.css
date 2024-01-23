@@ -246,6 +246,11 @@
   font-size: 18px;
   line-height: 1.55;
 }
+@media (min-width: 1500px) {
+  .about-bandwidth__info {
+    font-size: 22px;
+  }
+}
 .about-bandwidth__label {
   font-size: 32px;
   line-height: 0.87;

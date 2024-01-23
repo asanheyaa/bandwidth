@@ -74,6 +74,11 @@
 .form-contact-us__input::placeholder {
   color: #000;
 }
+@media (min-width: 1500px) {
+  .form-contact-us__input {
+    font-size: 22px;
+  }
+}
 .form-contact-us__button {
   padding: 12px 73px;
 }
