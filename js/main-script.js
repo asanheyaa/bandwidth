@@ -43,13 +43,13 @@ if (links) {
 	});
 }
 
-let ibg = document.querySelectorAll(".ibg");
-if (ibg) {
-	ibg.forEach(element => {
-		let image = element.querySelector('img')
-		element.style.backgroundImage = `url('${image.getAttribute('src')}')`;
-	});
-}
+// let ibg = document.querySelectorAll(".ibg");
+// if (ibg) {
+// 	ibg.forEach(element => {
+// 		let image = element.querySelector('img')
+// 		element.style.backgroundImage = `url('${image.getAttribute('src')}')`;
+// 	});
+// }
 
 
 
