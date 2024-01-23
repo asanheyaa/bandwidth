@@ -374,6 +374,19 @@
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
 }
+@media (max-width: 1200px) {
+  .services__row-decor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .services__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,7 +413,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media (min-width: 767.98px) {
+@media (min-width: 991.98px) {
   .services__info {
     max-width: 286px;
   }

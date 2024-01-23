@@ -288,7 +288,7 @@ body._lock {
   background: #fff;
   z-index: 1;
 }
-@media (min-width: 767.98px) {
+@media (min-width: 991.98px) {
   .header::after {
     display: none;
   }
@@ -324,7 +324,7 @@ body._lock {
   border-radius: 41px;
   border: 2px solid #1c1e53;
   color: #1c1e53;
-  margin-left: 96px;
+  margin-left: 30px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 18px;
@@ -350,6 +350,11 @@ body._lock {
   .header__button {
     padding: 10px;
     margin-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__button {
+    margin-left: 96px;
   }
 }
 .header__burger {
@@ -409,7 +414,7 @@ body._lock {
 .header__burger::after {
   bottom: 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .header__burger {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -418,7 +423,7 @@ body._lock {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .menu-header {
     position: fixed;
     width: 100%;
@@ -821,9 +826,9 @@ body._lock {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-column-gap: 150px;
-     -moz-column-gap: 150px;
-          column-gap: 150px;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
   row-gap: 50px;
 }
 @media (max-width: 1170px) {
@@ -833,16 +838,16 @@ body._lock {
 }
 @media (min-width: 991.98px) {
   .footer__items {
-    -webkit-column-gap: 200px;
-       -moz-column-gap: 200px;
-            column-gap: 200px;
+    -webkit-column-gap: 150px;
+       -moz-column-gap: 150px;
+            column-gap: 150px;
   }
 }
-@media (max-width: 500px) {
+@media (min-width: 767.98px) and (max-width: 991.98px) {
   .footer__items {
-    -webkit-column-gap: 50px;
-       -moz-column-gap: 50px;
-            column-gap: 50px;
+    -webkit-column-gap: 80px;
+       -moz-column-gap: 80px;
+            column-gap: 80px;
   }
 }
 .footer__item {
@@ -885,6 +890,7 @@ body._lock {
           flex: 1 1 auto;
   font-family: Plus Jakarta Sans;
   max-width: 456px;
+  min-width: 290px;
 }
 .form-footer__input {
   width: 100%;

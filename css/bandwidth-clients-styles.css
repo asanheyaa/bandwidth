@@ -226,9 +226,15 @@
   max-width: 100%;
 }
 .bandwidth-clients-partners__icon-arrow {
+  display: none;
   position: absolute;
   top: 26px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   right: -50px;
+}
+@media (min-width: 991.98px) {
+  .bandwidth-clients-partners__icon-arrow {
+    display: block;
+  }
 }
