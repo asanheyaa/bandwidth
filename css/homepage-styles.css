@@ -413,11 +413,6 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media (min-width: 991.98px) {
-  .services__info {
-    max-width: 286px;
-  }
-}
 .services__label {
   font-size: 21.5px;
   font-weight: 500;
