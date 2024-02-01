@@ -8,6 +8,9 @@ if (heroHomePageSwiper) {
 		autoHeight: true,
 		slidesPerView: 1,
 		spaceBetween: 50,
+		effect: "cards",
+		grabCursor: true,
+		
 		pagination: {
 			el: '.swiper-hero-section__pagination',
 			clickable:true

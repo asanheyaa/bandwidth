@@ -1,0 +1,100 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+.industry-focus {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media (max-width: 1170px) {
+  .industry-focus {
+    padding-top: calc(40px + 80 * (100vw - 320px) / 850);
+  }
+}
+@media (max-width: 1170px) {
+  .industry-focus {
+    padding-bottom: calc(40px + 80 * (100vw - 320px) / 850);
+  }
+}
+.industry-focus__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.64px;
+  margin-bottom: 70px;
+}
+@media (max-width: 1170px) {
+  .industry-focus__title {
+    margin-bottom: calc(30px + 40 * (100vw - 320px) / 850);
+  }
+}
+.industry-focus__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+@media (max-width: 1170px) {
+  .industry-focus__content {
+    gap: calc(30px + 40 * (100vw - 320px) / 850);
+  }
+}
+@media (max-width: 991.98px) {
+  .industry-focus__content {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.industry-focus__items {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+.industry-focus__item {
+  font-weight: 500;
+}
+.industry-focus__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (max-width: 1170px) {
+  .industry-focus__item:not(:last-child) {
+    margin-bottom: calc(20px + 10 * (100vw - 320px) / 850);
+  }
+}
+.industry-focus__label {
+  font-size: 21.5px;
+  line-height: 1.25;
+}
+.industry-focus__label:not(:last-child) {
+  margin-bottom: 10px;
+}
+@media (min-width: 1500px) {
+  .industry-focus__label {
+    font-size: 26px;
+  }
+}
+.industry-focus__text {
+  color: #666;
+}
+.industry-focus__decor {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+.industry-focus__image {
+  position: relative;
+}
+.industry-focus__image img {
+  max-width: 100%;
+}
